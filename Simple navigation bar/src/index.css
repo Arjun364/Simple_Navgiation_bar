@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:"outfit";
+}
+.list a{
+    color: black;
+    font-weight: 600;   
+}
+.list a:hover{
+    color: #47007E;
+    text-shadow: 0px 2px 4px rgba(90, 19, 146, 0.34);
+}
+body{
+    background: linear-gradient(104.99deg, #47007E 23.75%, rgba(99, 11, 169, 0.76) 80.27%, rgba(99, 11, 169, 0.76) 80.27%);
+}
+nav{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+/* ------------------------Left-section------------------- */
+nav #left img{
+    width: 80px;
+}
+/* ----------------------Middle-section----------------- */
+nav #middle ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+    text-decoration: none;
+
+}
+nav #middle ul li a{
+    text-decoration: none;
+
+}
+nav #middle ul li {
+    list-style: none;
+}
+
+/* -----------------Right-section----------------- */
+nav #right ul{
+    display: flex;
+    gap: 21px;
+}
+nav #right ul a{
+    text-decoration: none;
+
+}
+nav #right ul li {
+    list-style: none;
+}
+ #list-6 {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 68px;
+    height: 22px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    transition: all ease-out .2s ;
+
+}
+ #list-6 a{
+    /* border: 1px solid black; */
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+
+}
+ #list-6:hover{
+    background-color: #47007E;
+    box-shadow:0px 2px 6px rgba(90, 19, 146, 0.34);
+
+}
